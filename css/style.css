@@ -951,3 +951,9 @@ ul.tag-area li {
     background: #4ca5d0;
   }
 }
+.live-link {
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+}
