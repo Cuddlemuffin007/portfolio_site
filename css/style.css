@@ -962,3 +962,20 @@ ul.tag-area li {
   width: 765px;
   max-height: 410px;
 }
+
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.bond-api-heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#bond-api-link:hover {
+  color: #007;
+}
