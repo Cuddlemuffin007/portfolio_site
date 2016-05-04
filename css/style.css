@@ -957,3 +957,8 @@ ul.tag-area li {
   text-align: center;
   font-size: 1.5em;
 }
+
+.popbox {
+  width: 765px;
+  max-height: 410px;
+}
