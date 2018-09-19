@@ -122,7 +122,7 @@
             <div class="profile-information">
                 <div class="item">Name: <span>Brennon Rogers</span></div>
                 <div class="item">From: <span>USA</span></div>
-                <div class="item">Lives In: <span>Osaki, Tokyo, Japan</span></div>
+                <div class="item">Lives In: <span>Shibuya, Tokyo, Japan</span></div>
                 <div class="item">Interests:
                     <ul class="tag-area">
                         <li>Programming</li>
@@ -144,7 +144,7 @@
 
                 <div class="skill-item">
                     <h5>Python</h5>
-                    <ul class="progress-bubbles color-bg-profile" data-fill-level="7"></ul>
+                    <ul class="progress-bubbles color-bg-profile" data-fill-level="8"></ul>
                 </div>
                 <div class="skill-item">
                     <h5>Ruby</h5>
@@ -153,7 +153,7 @@
                 </div>
                 <div class="skill-item">
                     <h5>JavaScript</h5>
-                    <ul class="progress-bubbles color-bg-profile" data-fill-level="3"></ul>
+                    <ul class="progress-bubbles color-bg-profile" data-fill-level="4"></ul>
                     <p></p>
                 </div>
             </div> <!--End Profile Skills Section 1 -->
@@ -166,17 +166,17 @@
 
                 <div class="skill-item">
                     <h5>Django / Django REST</h5>
-                    <ul class="progress-bubbles color-bg-profile" data-fill-level="7"></ul>
+                    <ul class="progress-bubbles color-bg-profile" data-fill-level="8"></ul>
                     <p></p>
                 </div>
                 <div class="skill-item">
                     <h5>PostgreSQL</h5>
-                    <ul class="progress-bubbles color-bg-profile" data-fill-level="5"></ul>
+                    <ul class="progress-bubbles color-bg-profile" data-fill-level="6"></ul>
                     <p></p>
                 </div>
                 <div class="skill-item">
-                    <h5>HTML / CSS</h5>
-                    <ul class="progress-bubbles color-bg-profile" data-fill-level="4"></ul>
+                    <h5>SQL</h5>
+                    <ul class="progress-bubbles color-bg-profile" data-fill-level="5"></ul>
                     <p></p>
                 </div>
             </div> <!--End Profile Skills Section 2 -->
@@ -190,11 +190,17 @@
                   <li>Git</li>
                   <li>GitHub</li>
                   <li>Bitbucket</li>
+                  <li>TravisCI</li>
                   <li>jQuery</li>
+                  <li>Angular</li>
+                  <li>CoffeeScript</li>
                   <li>Bootstrap</li>
                   <li>Go</li>
                   <li>AWS</li>
+                  <li>EC2</li>
                   <li>RDS</li>
+                  <li>S3</li>
+                  <li>Lambda</li>
                   <li>ElasticBeanstalk</li>
                   <li>Heroku</li>
                   <li>Ubuntu Linux</li>
@@ -202,6 +208,7 @@
                   <li>Mac OSX</li>
                   <li>Vim</li>
                   <li>SQLite</li>
+                  <li>NoSQL</li>
                   <li>Japanese</li>
                   <li>Useless Random Trivia</li>
                 </ul>
@@ -268,6 +275,21 @@
             <div class="resume-work">
                 <h5>Work</h5>
 
+                <div class="timeline-item">
+                    <div class="date">
+                        <div class="dot"></div>
+                        <span>Jun 2016 - present</span>
+                    </div>
+                    <h5 class="timeline-title">trippiece KK</h5>
+                    <span class="job-title">Product Engineer</span>
+
+                    <!-- TODO: work history, currently available in the resume documents. -->
+                    <!-- <ul> -->
+                    <!--   <li> -->
+                    <!--   </li> -->
+                    <!-- </ul> -->
+
+                </div>
                 <div class="timeline-item">
                     <div class="date">
                         <div class="dot"></div>
@@ -406,17 +428,24 @@
                 </li>
             </ul>
             <div class="col-lg-12 col-md-12 col-sm-12">
-              <h1 class="bond-api-heading">
-                Try the 007 API!
-                <br/>
-              </h1>
+              <!-- Interactivity is currently disabled because I don't want to pay hosting fees. :P -->
+              <!-- <h1 class="bond-api-heading"> -->
+              <!--   Try the 007 API! -->
+              <!--   <br/> -->
+              <!-- </h1> -->
               <small>Greatly influenced by SWAPI - visit <a href="http://swapi.co">swapi.co</a></small>
               <div class="input-group">
                 <span class="input-group-addon">http://007api.co/api/</span>
-                <input id="interactive" type="text" class="form-control" placeholder="characters/1/">
-                <span class="input-group-btn"><button onclick="interactive_call();return false;" class="btn btn-primary">request</button></span>
+                <input id="interactive" type="text" class="form-control" placeholder="characters/1/" disabled>
+                <span class="input-group-btn"><button onclick="interactive_call();return false;" class="btn btn-primary" disabled>request</button></span>
               </div>
-              <small>Need a hint? try <a href="#" onclick="update('characters/1/');return false;"><i>characters/1/</i></a> or <a href="#" onclick="update('vehicles/3/');return false;"><i>vehicles/3/</i></a> or <a href="#" onclick="update('gadgets/9/');return false;"><i>gadgets/9/</i></a></small>
+              <!-- <small>Need a hint? try -->
+              <!--   <a href="#" onclick="update('characters/1/');return false;"><i>characters/1/</i></a> -->
+              <!--     or -->
+              <!--   <a href="#" onclick="update('vehicles/3/');return false;"><i>vehicles/3/</i></a> -->
+              <!--     or -->
+              <!--   <a href="#" onclick="update('gadgets/9/');return false;"><i>gadgets/9/</i></a> -->
+              <!-- </small> -->
               <p class="lead pad_top">Result:</p>
               <div class="well">
                 <pre id="interactive_output" class="pre-scrollable">{
@@ -459,8 +488,8 @@
                 <!-- Contact Map Address -->
                 <p>
                     <span>Brennon Rogers</span>
-                    141-0032 東京都品川区 <br/>
-                    大崎3−2−2　202号室
+                    151-0064 東京都渋谷区 <br/>
+                    上原1−17−18　401号室
                 </p>
                 <!-- End Contact Map Address -->
             </div>
@@ -468,7 +497,7 @@
                 <i class="fa fa-phone"></i>
 
                 <p>
-                    +1 864-608-4686
+                    +81 80-8036-3335
                 </p>
             </div>
             <div class="contact-email">
@@ -486,7 +515,7 @@
                     <a href="/resume/BrennonRogersResume.pdf" download>
                       Resume PDF Download
                     </a><br>
-                    <a href="/resume/BrennonRogersResume.doc" download>
+                    <a href="/resume/BrennonRogersResume.docx" download>
                       Resume Word Document Download
                     </a>
                 </p>
