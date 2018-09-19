@@ -355,10 +355,16 @@ function animationSetup() {
     }, {offset: '100%'});
 }
 
+function setCopyrightText() {
+  var currentYear = (new Date()).getFullYear();
+  $('#copyright').text("\u00A9" + currentYear + " All Rights Reserved.");
+}
+
 function footerSetup() {
     var socialClone = $('.social-links').clone();
     socialClone.removeClass('hidden-xs container').addClass('social-footer');
     $('.footer > p').append(socialClone);
+    setCopyrightText();
 }
 
 function ie8Placeholder() {
